@@ -1,0 +1,119 @@
+/*
+Theme Name: Vendd Child
+Author: Erik Lindenburg
+Author URI: http://it-plus.nl
+Description: Child theme for Vendd
+Template: vendd
+*/
+@import url( "../vendd/style.css" );
+
+/* ----- Theme customization starts here ----- */
+a.header-cart {
+    display: none;
+}
+
+a:link {
+	text-decoration:none !important; 
+}
+
+img.attachment-vendd_product_image.size-vendd_product_image.wp-post-image {
+    height: 356px;
+}
+
+.article {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+  -webkit-column-gap: 2em;
+     -moz-column-gap: 2em;
+          column-gap: 2em;
+}
+
+.edd_download_title {
+	font: 200 1em/1.3 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	padding: 15px 20px 0;
+	margin-bottom: 15px;
+}
+
+.site-branding {
+	display: inline-block;
+	padding: 0px 40px 10px 40px !important;
+}
+
+.textwidget {
+	background: #fff;
+	list-style: none;
+	border: 1px solid #15af0d;
+	border-radius: 4px;
+	margin: 0;
+padding: 15px;
+}
+
+
+
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item a {
+	font: 200 1.2em/1.3 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	text-decoration: none !important;
+}
+
+h1.entry-title {
+    font-size: 1.4em !important;
+}
+/*
+#masthead {
+	position: relative;
+	background-image: url("../../uploads/2016/09/header-home.jpg") !important;
+    background-color: #cccccc !important;
+}
+*/
+
+header.site-header {
+	position: relative;
+	background-image: url("../../uploads/2016/09/header-home.jpg") !important;
+    background-color: #cccccc !important;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item a {
+    background-color: green;
+	padding: 3px 10px;
+/*    border-style: solid;
+    border-color: #008000;
+    border-width: 2px;
+*/
+}
+
+span.site-title a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h2.site-description {
+    color: #008000;
+    font-weight: bold;
+}
+
+ul.clear.nav-menu {
+    margin-top: 80px;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-post.menu-item-384 a {
+    background-color: #008000;
+    font: 200 1.2em/1.3 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+    text-decoration: none !important;
+    	padding: 3px 10px;
+}
+    
+}
+
+/*
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-has-children.menu-item-249 a {
+    color: green;
+    background-color: white;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.current-menu-item.page_item.page-item-11.current_page_item.menu-item-30 a {
+    color: green;
+    background-color: white;
+}
+*/
